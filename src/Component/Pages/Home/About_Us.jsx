@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Testimonial from './Testimonial'
 // import CountUp from 'react-countup';
 // import { useInView } from 'react-intersection-observer';
 
@@ -314,8 +315,8 @@ export default function About_Us() {
             <div className='expert-section'>
                 <div class="home2-counter-area ">
                     <div class="container-lg container-fluid">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10">
+                        <div class="row justify-content-lg-center justify-content-center">
+                            <div class="col-lg-10 col-md-12 col-12">
                                 <div class="row g-4">
                                     <div class="col-lg-4">
                                         <div class="single-counter py-lg-0 py-md-3 py-3 mb-0">
@@ -688,13 +689,17 @@ export default function About_Us() {
                                                     <a href="https://axleo-wp.egenslab.com/portfolio/corporate-brand-revitalization/">Corporate Brand Revitalization.</a>
                                                 </h4>
                                             </div>
-                                        </div></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            {/* Testimonial Section */}
+            <Testimonial></Testimonial>
         </div>
     )
 }

@@ -1,0 +1,70 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    /* text-align: center; */
+    font-size: 18px;
+    /* background: #fff; */
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonal-content span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.testimonal-content p {
+    color: #c4c4c4;
+    font-size: 30px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+.testimonal-content h6 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.testimonial-post-text {
+    color: #c4c4c4 !important;
+    font-size: 14px !important;
+}
+
+.swiper-button {
+    z-index: 5;
+}
+
+/* .swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: var(--swiper-navigation-top-offset, 75%) !important;
+    width: calc(var(--swiper-navigation-size) / 1* 31) !important;
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px -(var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+} */
+.swiper-pagination-fraction {
+    left: -115px !important;
+}
+
+.swiper-pagination {
+    position: absolute;
+    text-align: end !important;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+}

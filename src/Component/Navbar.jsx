@@ -1,6 +1,6 @@
-import React from 'react'
-import Home from './Pages/Home/Home'
-import About_Us from './Pages/Home/About_Us'
+import React from 'react';
+import Home from './Pages/Home/Home';
+import About_Us from './Pages/Home/About_Us';
 
 export default function Navbar() {
     return (
@@ -29,15 +29,27 @@ export default function Navbar() {
                                     <li className="nav-item d-flex align-items-center">
                                         <a className="nav-link" aria-current="page" href="index.html" data-section="home">Home</a>
                                     </li>
-                                    {/* <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link text-nowrap text-white" href="#" data-section="about">ABOUT</a>
-                                </li> */}
-                                    <li className="nav-item d-flex align-items-center">
-                                        <a className="nav-link text-nowrap" href="services.html" data-section="services">Services
+                                    <li className="nav-item dropdown d-flex align-items-center">
+                                        <a className="nav-link dropdown-toggle" href="services.html" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Services
                                         </a>
+                                        <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
+                                            <li><a className="dropdown-item" href="#">Service Style 01</a></li>
+                                            <li><a className="dropdown-item" href="#">Service Style 02</a></li>
+                                            <li><a className="dropdown-item" href="#">Service Style 03</a></li>
+                                            <li><a className="dropdown-item" href="#">Service Style 04</a></li>
+                                            <li><a className="dropdown-item" href="#">Service Style 05</a></li>
+                                        </ul>
                                     </li>
-                                    <li className="nav-item d-flex align-items-center">
-                                        <a className="nav-link text-nowrap" href="projects.html" data-section="project">Pages</a>
+                                    <li className="nav-item dropdown d-flex align-items-center">
+                                        <a className="nav-link dropdown-toggle" href="projects.html" data-section="project" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                        <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
+                                            <li><a className="dropdown-item" href="#">Page Style 01</a></li>
+                                            <li><a className="dropdown-item" href="#">Page Style 02</a></li>
+                                            <li><a className="dropdown-item" href="#">Page Style 03</a></li>
+                                            <li><a className="dropdown-item" href="#">Page Style 04</a></li>
+                                            <li><a className="dropdown-item" href="#">Page Style 05</a></li>
+                                        </ul>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
                                         <a className="nav-link" href="blog.html" data-section="blog">Portfolio</a>
@@ -47,15 +59,15 @@ export default function Navbar() {
                                     </li>
                                 </ul>
                                 <div className="p-1 nav-contact-button mt-3 mt-lg-0" role="search">
-                                    <div><a href="#"><button className="nav-bar-contact-btn text-nowrap">Schedule a Call </button></a></div>
+                                    <div><a href="#"><button className="nav-bar-contact-btn text-nowrap">Schedule a Call</button></a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </nav>
-                <Home></Home>
+                <Home />
             </div>
-            <About_Us></About_Us>
+            <About_Us />
         </div>
-    )
+    );
 }
