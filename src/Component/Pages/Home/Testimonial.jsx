@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export default function Testimonial() {
     return (
-        <div className='testimonial'>
+        <div className='testimonial py-5'>
             <>
                 <Swiper
                     pagination={{
