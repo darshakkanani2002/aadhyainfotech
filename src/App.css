@@ -1221,7 +1221,7 @@ a {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-top: 15px;  
+  padding-top: 15px;
 }
 
 .section-title .work-dash-and-paragraph .dash {
@@ -1699,4 +1699,176 @@ a {
 .blog-card2 .blog-content .explore-btn:hover svg {
   fill: #F4CB0A;
   transform: rotate(45deg);
+}
+
+/* Lets Talk section csss */
+.lets-contact-section {
+  padding: 100px 0px;
+}
+
+.lest-talk-sec-style-1 {
+  display: block;
+  text-align: start;
+  position: relative;
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform-origin: 307.6px 39.3px;
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+}
+
+.lest-talk-sec-style-2 {
+  display: block;
+  text-align: start;
+  position: relative;
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform-origin: 307.6px 74.5px;
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+}
+
+.lest-talk-sec-style-3 {
+  display: block;
+  text-align: start;
+  position: relative;
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform-origin: 268px 13px;
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+}
+
+.lets-talk-btn-style {
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.contact-section .section-title h2 {
+  font-size: 130px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.contact-section .section-title h2 span {
+  display: inline-block;
+}
+
+.section-title .dash-and-paragraph {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 15px;
+  flex-wrap: wrap;
+}
+
+.dash-and-paragraph {
+  align-items: baseline;
+}
+
+.section-title .dash-and-paragraph .dash {
+  width: 33.33%;
+  height: 1px;
+  min-width: 50px;
+  background-color: #2F2F2F;
+  position: relative;
+}
+
+.dash-and-paragraph .dash {
+  transform: translateY(-5px);
+}
+
+.section-title .dash-and-paragraph .dash::after {
+  content: "";
+  height: 6px;
+  width: 5px;
+  -webkit-clip-path: polygon(100% 50%, 0 100%, 0 0);
+  clip-path: polygon(100% 50%, 0 100%, 0 0);
+  background-color: #2F2F2F;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.section-title .dash-and-paragraph .social-area {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.section-title .dash-and-paragraph .social-area h6 {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.social-area svg {
+  fill: #f4cb0a;
+}
+
+.contact-section .section-title .dash-and-paragraph .social-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-area ul li a {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  border: 1px solid rgba(86, 96, 100, .2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--paragraph-color);
+  transition: .35s;
+}
+
+.social-area ul li a svg {
+  fill: #fff;
+  height: 18px;
+}
+
+.circle-btn {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .1);
+  background: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  transition: all .6s;
+}
+
+.circle-btn svg {
+  fill: #fff;
+}
+
+.btn-hover :hover {
+  background-color: #f4cb0a;
+  color: #1a1a1a;
 }
