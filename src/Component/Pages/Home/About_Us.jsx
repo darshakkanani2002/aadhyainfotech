@@ -316,7 +316,7 @@ export default function About_Us() {
             {/* Exper and projects */}
 
             <div className='expert-section'>
-                <div class="home2-counter-area ">
+                <div class="home2-counter-area">
                     <div class="container-lg container-fluid">
                         <div class="row justify-content-lg-center justify-content-center">
                             <div class="col-lg-10 col-md-12 col-12">
