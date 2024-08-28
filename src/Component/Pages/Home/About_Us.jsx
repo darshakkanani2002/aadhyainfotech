@@ -1074,7 +1074,7 @@ export default function About_Us() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
                                         <a href="https://axleo-wp.egenslab.com/comprehensive-seo-services-for-increased-visibility/" className="blog-img">
-                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img12-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
+                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img12-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image img-fluid w-100" alt="" /> </a>
                                         <div className="blog-content">
                                             <ul className="tags">
                                                 <li>
@@ -1110,7 +1110,7 @@ export default function About_Us() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
                                         <a href="https://axleo-wp.egenslab.com/professional-web-design-for-modern-businesses/" className="blog-img">
-                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img11-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
+                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img11-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image img-fluid w-100" alt="" /> </a>
                                         <div className="blog-content">
                                             <ul className="tags">
                                                 <li>
@@ -1146,7 +1146,7 @@ export default function About_Us() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
                                         <a href="https://axleo-wp.egenslab.com/creative-branding-solutions-to-elevate-your-brand/" className="blog-img">
-                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img10-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
+                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img10-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image img-fluid w-100" alt="" /> </a>
                                         <div className="blog-content">
                                             <ul className="tags">
                                                 <li>
