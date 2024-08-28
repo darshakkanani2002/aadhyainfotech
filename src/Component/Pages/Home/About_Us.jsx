@@ -127,16 +127,16 @@ export default function About_Us() {
 
             {/* To Provide Smart Solution */}
             <div className='to-provide-smart-sec py-5'>
-                <div class="container-xl container-fluids">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="section-title four text-animation vector-and-review">
+                <div className="container-xl container-fluids">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="section-title four text-animation vector-and-review">
                                 <div className='to-smart-solution'>
                                     <h2>TO PROVIDE SMART <span className='text-start'>SOLUTION</span></h2>
                                 </div>
                                 <div className='to-smart-solution'>
-                                    <div class="dash-and-paragraph three">
-                                        <div class="btn-and-paragraph">
+                                    <div className="dash-and-paragraph three">
+                                        <div className="btn-and-paragraph">
                                             <a className='text-decoration-none' href="https://axleo-wp.egenslab.com/services/service-style-01/">Explore more <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                 <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
                                                 </path>
@@ -154,11 +154,11 @@ export default function About_Us() {
                     </div>
                 </div>
                 {/* our solution part section */}
-                <div class="elementor-widget-container my-5">
-                    <div class="home2-services-section">
-                        <div class="container-lg container-fluid">
-                            <div class="services-wrapper">
-                                <div class="service-card">
+                <div className="elementor-widget-container my-5">
+                    <div className="home2-services-section">
+                        <div className="container-lg container-fluid">
+                            <div className="services-wrapper">
+                                <div className="service-card">
                                     <h3> 1. UI/UX Design</h3>
                                     <p>Conducting research to understand the target audience, behaviors.</p>
                                     <ul>
@@ -178,12 +178,12 @@ export default function About_Us() {
                                             <a href="#">Visual</a>
                                         </li>
                                     </ul>
-                                    <a class="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/ui-ux-design/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/ui-ux-design/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                     </svg><span style={{ top: "49.7px", left: "58.4px;" }}></span>
                                     </a>
                                 </div>
-                                <div class="service-card">
+                                <div className="service-card">
                                     <h3> 2. App Development</h3>
                                     <p>The process of creating software applications for mobile devices, such as smartphones.</p>
                                     <ul>
@@ -203,12 +203,12 @@ export default function About_Us() {
                                             <a href="#">Visual</a>
                                         </li>
                                     </ul>
-                                    <a class="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/web-development/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/web-development/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                     </svg><span style={{ top: "-314.3px", left: "28.45px" }}></span>
                                     </a>
                                 </div>
-                                <div class="service-card">
+                                <div className="service-card">
                                     <h3> 3. Block-Chain</h3>
                                     <p>Conducting research to understand the target audience, behaviors.</p>
                                     <ul>
@@ -228,12 +228,12 @@ export default function About_Us() {
                                             <a href="#">Wireframe</a>
                                         </li>
                                     </ul>
-                                    <a class="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/email-marketing/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/email-marketing/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                     </svg><span></span>
                                     </a>
                                 </div>
-                                <div class="service-card">
+                                <div className="service-card">
                                     <h3> 4. Web Development</h3>
                                     <p>Web development is the process of building and maintaining websites or web applications.</p>
                                     <ul>
@@ -253,12 +253,12 @@ export default function About_Us() {
                                             <a href="#">Wireframe</a>
                                         </li>
                                     </ul>
-                                    <a class="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/web-development/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/web-development/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                     </svg><span></span>
                                     </a>
                                 </div>
-                                <div class="service-card border-bottom-0 ">
+                                <div className="service-card border-bottom-0 ">
                                     <h3> 5. Cloud Service</h3>
                                     <p>Conducting research to understand the target audience, behaviors.</p>
                                     <ul>
@@ -278,12 +278,12 @@ export default function About_Us() {
                                             <a href="#">Design</a>
                                         </li>
                                     </ul>
-                                    <a class="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/branding-design/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/branding-design/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                     </svg><span style={{ top: "53.1px", left: "5.45001px" }}></span>
                                     </a>
                                 </div>
-                                <div class="service-card">
+                                <div className="service-card">
                                     <h3> 6. Cyber Security</h3>
                                     <p>Conducting research to understand the target audience, behaviors.</p>
                                     <ul>
@@ -303,7 +303,7 @@ export default function About_Us() {
                                             <a href="#">Typography</a>
                                         </li>
                                     </ul>
-                                    <a class="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/web-development/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/web-development/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                     </svg><span></span>
                                     </a>
@@ -317,36 +317,36 @@ export default function About_Us() {
             {/* Exper and projects */}
             <Project></Project>
             {/* <div className='expert-section'>
-                <div class="home2-counter-area">
-                    <div class="container-lg container-fluid">
-                        <div class="row justify-content-lg-center justify-content-center">
-                            <div class="col-lg-10 col-md-12 col-12">
-                                <div class="row g-4">
-                                    <div class="col-lg-4">
-                                        <div class="single-counter py-lg-0 py-md-3 py-3 mb-0">
-                                            <div class="content">
-                                                <div class="number d-flex justify-content-center">
-                                                    <h2 class="counter">34</h2>
+                <div className="home2-counter-area">
+                    <div className="container-lg container-fluid">
+                        <div className="row justify-content-lg-center justify-content-center">
+                            <div className="col-lg-10 col-md-12 col-12">
+                                <div className="row g-4">
+                                    <div className="col-lg-4">
+                                        <div className="single-counter py-lg-0 py-md-3 py-3 mb-0">
+                                            <div className="content">
+                                                <div className="number d-flex justify-content-center">
+                                                    <h2 className="counter">34</h2>
                                                 </div>
                                                 <p>Professional Experts</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="single-counter py-lg-0 py-md-3 py-3 mb-0">
-                                            <div class="content">
-                                                <div class="number d-flex justify-content-center">
-                                                    <h2 class="counter">145</h2>
+                                    <div className="col-lg-4">
+                                        <div className="single-counter py-lg-0 py-md-3 py-3 mb-0">
+                                            <div className="content">
+                                                <div className="number d-flex justify-content-center">
+                                                    <h2 className="counter">145</h2>
                                                 </div>
                                                 <p>Completed Projects</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="single-counter py-lg-0 py-md-3 py-3 mb-0">
-                                            <div class="content">
-                                                <div class="number d-flex justify-content-center">
-                                                    <h2 class="counter">5</h2>
+                                    <div className="col-lg-4">
+                                        <div className="single-counter py-lg-0 py-md-3 py-3 mb-0">
+                                            <div className="content">
+                                                <div className="number d-flex justify-content-center">
+                                                    <h2 className="counter">5</h2>
                                                 </div>
                                                 <p>Year of Experienece</p>
                                             </div>
@@ -445,22 +445,22 @@ export default function About_Us() {
                             <div className='our-solution-border ps-4 pb-4'>
                                 <div className='our-solution-position'>
                                     <div className='our-solution-back'>
-                                        <div class="our-solution-icon mb-4">
+                                        <div className="our-solution-icon mb-4">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70"><g><path d="M67.6527 16.0958C68.7855 14.6144 67.827 11.5646 65.5614 12.436C60.246 14.5273 54.7564 19.1456 51.1838 23.6767C47.4368 28.4693 46.7397 34.5689 48.4825 40.3199C51.0095 48.6851 58.4161 54.1748 65.5614 58.6188C68.8726 60.7101 71.8353 55.4818 68.6112 53.3905C63.383 50.1665 57.5448 46.071 54.9307 40.3199C52.9265 35.7888 52.9265 30.6477 56.2377 26.6394C59.5489 22.7182 64.4286 20.1041 67.6527 16.0958ZM1.42836 53.3905C-1.88286 55.3947 1.16694 60.6229 4.47816 58.6188C11.6234 54.1748 18.943 48.6851 21.5571 40.3199C23.2998 34.7432 22.6899 28.6435 19.1172 24.0253C15.6317 19.407 9.96781 14.6144 4.5653 12.5231C2.29973 11.6518 1.25408 14.7016 2.474 16.1829C5.61095 20.1041 10.3164 22.7182 13.6276 26.4651C17.1131 30.4734 17.2873 35.7017 15.196 40.4942C12.4948 46.071 6.56946 50.1665 1.42836 53.3905ZM53.3622 1.36957C50.1381 6.59781 46.0426 12.436 40.2916 15.0501C35.7604 17.0543 30.6193 17.0543 26.611 13.7431C22.6027 10.4319 19.9886 5.55216 15.9803 2.32808C14.5861 1.1953 11.5363 2.24094 12.4077 4.50651C14.499 9.82189 19.1172 15.3115 23.6484 18.8842C28.4409 22.6311 34.5405 23.3282 40.2916 21.5854C48.6568 19.0584 54.1464 11.6518 58.5904 4.50651C60.5946 1.1953 55.4535 -1.85451 53.3622 1.36957ZM58.5904 65.5898C54.1464 58.4445 48.6568 51.125 40.2916 48.5108C34.7148 46.7681 28.6152 47.3781 23.9969 50.9507C19.3786 54.4362 14.5861 60.1001 12.4948 65.5026C11.6234 67.7682 14.6732 68.8138 16.1546 67.5939C20.0757 64.457 22.6899 59.7516 26.4368 56.4403C30.4451 52.9548 35.6733 52.7806 40.4659 54.8719C46.2169 57.486 50.2252 63.3242 53.5365 68.5524C55.4535 71.8636 60.5946 68.901 58.5904 65.5898Z"></path></g></svg>
                                         </div>
                                         <div>
-                                            <div class="content">
+                                            <div className="content">
                                                 <h3 className='mb-3 text-white'>Discovery and Consultation.</h3>
                                                 <p className='mb-4'>Understand the client's goals, challenges, and requirements through initial meetings and consultations.</p>
                                                 <ul className='list-unstyled our-innovative-list'>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Client Meeting. </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Needs Assessment </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Strategic Planning. </li>
                                                 </ul>
                                             </div>
@@ -469,25 +469,25 @@ export default function About_Us() {
                                 </div>
                                 <div className='our-solution-position'>
                                     <div className='our-solution-back'>
-                                        <div class="our-solution-icon mb-4">
+                                        <div className="our-solution-icon mb-4">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70"><path d="M58.3331 63C58.3331 50.1144 47.8856 39.6669 35 39.6669C22.1144 39.6669 11.6669 50.1144 11.6669 63H7C7 47.537 19.537 35 35 35C50.463 35 63 47.537 63 63H58.3331ZM39.6669 7C39.6669 19.8856 50.1144 30.3338 63 30.3338V35C47.537 35 35 22.463 35 7H39.6669Z"></path><path d="M56 21C59.866 21 63 17.866 63 14C63 10.134 59.866 7 56 7C52.134 7 49 10.134 49 14C49 17.866 52.134 21 56 21Z"></path><path d="M35.0001 63.0007C40.1546 63.0007 44.3332 58.8221 44.3332 53.6676C44.3332 48.513 40.1546 44.3345 35.0001 44.3345C29.8456 44.3345 25.667 48.513 25.667 53.6676C25.667 58.8221 29.8456 63.0007 35.0001 63.0007Z" fill="#F5BEBE"></path><path d="M18.6669 30.3338C25.1104 30.3338 30.3338 25.1104 30.3338 18.6669C30.3338 12.2234 25.1104 7 18.6669 7C12.2234 7 7 12.2234 7 18.6669C7 25.1104 12.2234 30.3338 18.6669 30.3338Z" fill="#F5BEBE"></path></svg>
                                         </div>
                                         <div>
-                                            <div class="content">
+                                            <div className="content">
                                                 <h3 className='mb-3 text-white'>Design and Architecture.</h3>
                                                 <p className='mb-4'>If applicable, create a user-centric design for software interfaces, websites, or applications.</p>
                                                 <ul className='list-unstyled our-innovative-list'>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Wireframing </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Design Mockups. </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Strategic Planning. </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Implementation. </li>
                                                 </ul>
                                             </div>
@@ -497,25 +497,25 @@ export default function About_Us() {
 
                                 <div className='our-solution-position'>
                                     <div className='our-solution-back'>
-                                        <div class="our-solution-icon mb-4">
+                                        <div className="our-solution-icon mb-4">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70"><path d="M60.9 25.69H44.31V9.1C44.31 7.91 45.22 7 46.41 7H60.9C62.09 7 63 7.91 63 9.1V23.59C63 24.71 62.09 25.69 60.9 25.69ZM44.31 44.31H25.69V27.79C25.69 26.6 26.6 25.69 27.79 25.69H44.38V44.31H44.31ZM23.59 63H9.1C7.91 63 7 62.09 7 60.9V46.41C7 45.22 7.91 44.31 9.1 44.31H25.69V60.9C25.69 62.09 24.71 63 23.59 63ZM9.1 7H22.54C23.73 7 24.29 8.4 23.45 9.24L9.24 23.45C8.4 24.29 7 23.66 7 22.54V9.1C7 7.91 7.91 7 9.1 7Z"></path><path d="M60.9001 63.0001H46.4101C45.2201 63.0001 44.3101 62.0901 44.3101 60.9001V44.3101H60.9001C62.0901 44.3101 63.0001 45.2201 63.0001 46.4101V60.9001C63.0001 62.0901 62.0901 63.0001 60.9001 63.0001Z"></path></svg>
                                         </div>
                                         <div>
-                                            <div class="content">
+                                            <div className="content">
                                                 <h3 className='mb-3 text-white'>Development</h3>
                                                 <p className='mb-4'>Understand the client's goals, challenges, and requirements through initial meetings and consultations.</p>
                                                 <ul className='list-unstyled our-innovative-list'>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Testing Plans. </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Bug Fixing. </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Agile Development. </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Agile Development. </li>
                                                 </ul>
                                             </div>
@@ -525,28 +525,28 @@ export default function About_Us() {
 
                                 <div className='our-solution-position-2'>
                                     <div className='our-solution-back'>
-                                        <div class="our-solution-icon mb-4">
+                                        <div className="our-solution-icon mb-4">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="70" height="52" viewBox="0 0 70 52" fill="#000000"><path d="M8.87109 17.9175H15.6444V51.0733H8.87109V17.9175ZM20.5935 17.9175H27.3668V51.0733H20.5935V17.9175ZM31.8339 17.9175H38.6072V51.0733H31.8339V17.9175Z"></path><path d="M60.0751 26.3969C60.0751 34.3723 53.7819 40.9057 45.8989 41.2947V45.5129C56.1078 45.1203 64.2926 36.6968 64.2926 26.3967C64.2926 15.8472 55.7071 7.26465 45.1542 7.26465H16.0967V11.4804H45.1544C53.3817 11.4804 60.0752 18.1718 60.0752 26.3968L60.0751 26.3969Z" fill="#F5BEBE"></path><path d="M45.1548 1.55981H16.0971V5.77558H45.1548C56.5291 5.77558 65.7826 15.0263 65.7826 26.3969C65.7826 37.5183 56.9301 46.6101 45.8995 47.0034V51.2229C59.2561 50.8279 70 39.843 70 26.3969C70 12.7017 58.8545 1.55981 45.1548 1.55981ZM11.0506 5.52314C11.0506 2.4777 8.572 0 5.52537 0C2.47874 0 0 2.4777 0 5.52314C0 8.56858 2.47874 11.0463 5.52537 11.0463C8.572 11.0463 11.0506 8.56858 11.0506 5.52314Z" fill="#F5BEBE"></path></svg>
                                         </div>
                                         <div>
-                                            <div class="content">
+                                            <div className="content">
                                                 <h3 className='mb-3 text-white'>Documentation & Launch.</h3>
                                                 <p className='mb-4'>Understand the client's goals, challenges, and requirements through initial meetings and consultations.</p>
                                                 <ul className='list-unstyled our-innovative-list'>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Testing Plans. </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Bug Fixing. </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Agile Development. </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Agile Development. </li>
                                                     <li>
-                                                        <i class="bi bi-plus"></i>
+                                                        <i className="bi bi-plus"></i>
                                                         Strategic Planning. </li>
                                                 </ul>
                                             </div>
@@ -562,19 +562,19 @@ export default function About_Us() {
             {/* Work Section */}
             <div>
                 <div>
-                    <div class="home2-portfolio-section">
-                        <div class="container-lg container-fluid">
-                            <div class="row mb-60">
-                                <div class="col-lg-12">
-                                    <div class="section-title text-animation vector-and-review">
+                    <div className="home2-portfolio-section">
+                        <div className="container-lg container-fluid">
+                            <div className="row mb-60">
+                                <div className="col-lg-12">
+                                    <div className="section-title text-animation vector-and-review">
                                         <div className='work-section-style'>
                                             <h2>Work <span className='d-lg-flex d-md-flex d-sm-none d-none'>22</span></h2>
                                         </div>
                                         <div className='work-section-style'>
-                                            <div class="work-dash-and-paragraph three">
-                                                <div class="dash d-lg-block d-md-block d-sm-none d-none">
+                                            <div className="work-dash-and-paragraph three">
+                                                <div className="dash d-lg-block d-md-block d-sm-none d-none">
                                                 </div>
-                                                <div class="btn-and-paragraph">
+                                                <div className="btn-and-paragraph">
                                                     <a href="https://axleo-wp.egenslab.com/portfolio-masonery/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
                                                         </path>
@@ -590,19 +590,19 @@ export default function About_Us() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="row gy-lg-5 g-4 justify-content-between py-5">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="magnetic-wrap">
-                                        <div class="portfolio-card magnetic-item">
-                                            <div class="image-and-tag">
-                                                <ul class="tag">
+                            <div className="row gy-lg-5 g-4 justify-content-between py-5">
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="magnetic-wrap">
+                                        <div className="portfolio-card magnetic-item">
+                                            <div className="image-and-tag">
+                                                <ul className="tag">
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/color/">color</a></li>
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/development/">Development</a></li>
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/web-design/">Web Design</a></li>
                                                 </ul>
-                                                <div class="portfolio-img position-relative">
-                                                    <img fetchpriority="high" decoding="async" width="1920" height="1000" src="images/interactive-05.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" alt="" />
-                                                    <a class="details-btn" href="#">
+                                                <div className="portfolio-img position-relative">
+                                                    <img fetchpriority="high" decoding="async" width="1920" height="1000" src="images/interactive-05.jpg" className="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" alt="" />
+                                                    <a className="details-btn" href="#">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                             <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
                                                             </path>
@@ -610,7 +610,7 @@ export default function About_Us() {
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="portfolio-content">
+                                            <div className="portfolio-content">
                                                 <h4>
                                                     <a href="https://axleo-wp.egenslab.com/portfolio/sculpting-thefuture/">Sculpting theFuture</a>
                                                 </h4>
@@ -618,18 +618,18 @@ export default function About_Us() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-5 col-md-6">
-                                    <div class="magnetic-wrap">
-                                        <div class="portfolio-card magnetic-item">
-                                            <div class="image-and-tag">
-                                                <ul class="tag">
+                                <div className="col-lg-5 col-md-6">
+                                    <div className="magnetic-wrap">
+                                        <div className="portfolio-card magnetic-item">
+                                            <div className="image-and-tag">
+                                                <ul className="tag">
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/campaign/">Campaign</a></li>
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/testing/">testing</a></li>
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/web-design/">Web Design</a></li>
                                                 </ul>
-                                                <div class="portfolio-img position-relative">
-                                                    <img decoding="async" width="1920" height="1000" src="images/interactive-04.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" />
-                                                    <a class="details-btn" href="#">
+                                                <div className="portfolio-img position-relative">
+                                                    <img decoding="async" width="1920" height="1000" src="images/interactive-04.jpg" className="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" />
+                                                    <a className="details-btn" href="#">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                             <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
                                                             </path>
@@ -637,7 +637,7 @@ export default function About_Us() {
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="portfolio-content">
+                                            <div className="portfolio-content">
                                                 <h4>
                                                     <a href="https://axleo-wp.egenslab.com/portfolio/where-vision-meets-technology/">Where Vision Meets Technology.</a>
                                                 </h4>
@@ -645,18 +645,18 @@ export default function About_Us() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-5 col-md-6">
-                                    <div class="magnetic-wrap">
-                                        <div class="portfolio-card magnetic-item">
-                                            <div class="image-and-tag">
-                                                <ul class="tag">
+                                <div className="col-lg-5 col-md-6">
+                                    <div className="magnetic-wrap">
+                                        <div className="portfolio-card magnetic-item">
+                                            <div className="image-and-tag">
+                                                <ul className="tag">
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/development/">Development</a></li>
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/software/">Software</a></li>
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/web-design/">Web Design</a></li>
                                                 </ul>
-                                                <div class="portfolio-img position-relative">
-                                                    <img decoding="async" width="1920" height="1000" src="images/interactive-03.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" alt="" />
-                                                    <a class="details-btn" href="#">
+                                                <div className="portfolio-img position-relative">
+                                                    <img decoding="async" width="1920" height="1000" src="images/interactive-03.jpg" className="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" alt="" />
+                                                    <a className="details-btn" href="#">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                             <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
                                                             </path>
@@ -664,25 +664,25 @@ export default function About_Us() {
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="portfolio-content">
+                                            <div className="portfolio-content">
                                                 <h4>
                                                     <a href="https://axleo-wp.egenslab.com/portfolio/we-compose-digital-masterpieces/">We Compose Digital Masterpieces.</a>
                                                 </h4>
                                             </div>
                                         </div></div>
                                 </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="magnetic-wrap">
-                                        <div class="portfolio-card magnetic-item">
-                                            <div class="image-and-tag">
-                                                <ul class="tag">
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="magnetic-wrap">
+                                        <div className="portfolio-card magnetic-item">
+                                            <div className="image-and-tag">
+                                                <ul className="tag">
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/color/">color</a></li>
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/segmentation/">Segmentation</a></li>
                                                     <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/testing/">testing</a></li>
                                                 </ul>
-                                                <div class="portfolio-img position-relative">
-                                                    <img loading="lazy" decoding="async" width="1920" height="1000" src="images/interactive-02.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" alt="" />
-                                                    <a class="details-btn" href="#">
+                                                <div className="portfolio-img position-relative">
+                                                    <img loading="lazy" decoding="async" width="1920" height="1000" src="images/interactive-02.jpg" className="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" alt="" />
+                                                    <a className="details-btn" href="#">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                             <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
                                                             </path>
@@ -690,7 +690,7 @@ export default function About_Us() {
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="portfolio-content">
+                                            <div className="portfolio-content">
                                                 <h4>
                                                     <a href="https://axleo-wp.egenslab.com/portfolio/corporate-brand-revitalization/">Corporate Brand Revitalization.</a>
                                                 </h4>
@@ -710,16 +710,16 @@ export default function About_Us() {
             {/* Partner Section */}
             <div>
                 <div>
-                    <div class="partner-area">
-                        <div class="container-lg container-fluid pb-5">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="partner-wrap">
-                                        <div class="title1">
+                    <div className="partner-area">
+                        <div className="container-lg container-fluid pb-5">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="partner-wrap">
+                                        <div className="title1">
                                             <h6>Our Trusted Partner</h6>
                                         </div>
-                                        <div class="marquee dark overflow-hidden py-5">
-                                            <div class="marquee__group">
+                                        <div className="marquee dark overflow-hidden py-5">
+                                            <div className="marquee__group">
                                                 <a href="#"><img decoding="async" src="images/partner-light-01.png" alt="Logo" /></a>
                                                 <a href="#"><img decoding="async" src="images/partner-light-02.png" alt="Logo" /></a>
                                                 <a href="#"><img decoding="async" src="images/partner-light-03.png" alt="Logo" /></a>
@@ -727,7 +727,7 @@ export default function About_Us() {
                                                 <a href="#"><img decoding="async" src="images/partner-light-05.png" alt="Logo" /></a>
                                                 <a href="#"><img decoding="async" src="images/partner-06.png" alt="Logo" /></a>
                                             </div>
-                                            <div aria-hidden="true" class="marquee__group">
+                                            <div aria-hidden="true" className="marquee__group">
                                                 <a href="#"> <img decoding="async" src="images/partner-light-01.png" alt="Logo" /></a>
                                                 <a href="#"> <img decoding="async" src="images/partner-light-02.png" alt="Logo" /></a>
                                                 <a href="#"> <img decoding="async" src="images/partner-light-03.png" alt="Logo" /></a>
@@ -736,7 +736,7 @@ export default function About_Us() {
                                                 <a href="#"> <img decoding="async" src="images/partner-light-06.png" alt="Logo" /></a>
                                             </div>
                                         </div>
-                                        <div class="title2">
+                                        <div className="title2">
                                             <h6>Almost 20+ Partner we have</h6>
                                         </div>
                                     </div>
@@ -750,16 +750,16 @@ export default function About_Us() {
             {/* We Used Technology Section */}
             <div>
                 <div>
-                    <div class="home2-technology-section">
-                        <div class="container-lg container-fluid">
-                            <div class="row mb-60">
-                                <div class="section-title four white text-animation vector-and-review">
+                    <div className="home2-technology-section">
+                        <div className="container-lg container-fluid">
+                            <div className="row mb-60">
+                                <div className="section-title four white text-animation vector-and-review">
                                     <div className='techno-stlye-1'>
                                         <h2>We Used Advance <span>TECHNOLOGY</span></h2>
                                     </div>
                                     <div className='techno-style-2'>
-                                        <div class="dash-and-paragraph three">
-                                            <div class="btn-and-paragraph">
+                                        <div className="dash-and-paragraph three">
+                                            <div className="btn-and-paragraph">
                                                 <p className='vector-and-review'>
                                                     <div className='techno-style-3'>Offer a wide range of services to help businesses </div>
                                                     <div className='techno-style-3'>establish and enhance their online presence.
@@ -770,308 +770,308 @@ export default function About_Us() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="technology-tab-wrap">
-                                        <ul class="nav nav-tabs" id="technologyTab" role="tablist">
-                                            <li class="nav-item" role="presentation">
-                                                <button class="nav-link" id="Front-End-tab" data-bs-toggle="tab" data-bs-target="#tech-Front-End" type="button" role="tab" aria-controls="tech-Front-End" aria-selected="false" tabindex="-1">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="technology-tab-wrap">
+                                        <ul className="nav nav-tabs" id="technologyTab" role="tablist">
+                                            <li className="nav-item" role="presentation">
+                                                <button className="nav-link" id="Front-End-tab" data-bs-toggle="tab" data-bs-target="#tech-Front-End" type="button" role="tab" aria-controls="tech-Front-End" aria-selected="false" tabindex="-1">
                                                     Front-End</button>
                                             </li>
-                                            <li class="nav-item" role="presentation">
-                                                <button class="nav-link" id="Back-End-tab" data-bs-toggle="tab" data-bs-target="#tech-Back-End" type="button" role="tab" aria-controls="tech-Back-End" aria-selected="false" tabindex="-1">
+                                            <li className="nav-item" role="presentation">
+                                                <button className="nav-link" id="Back-End-tab" data-bs-toggle="tab" data-bs-target="#tech-Back-End" type="button" role="tab" aria-controls="tech-Back-End" aria-selected="false" tabindex="-1">
                                                     Back-End</button>
                                             </li>
-                                            <li class="nav-item" role="presentation">
-                                                <button class="nav-link active" id="Mobile-tab" data-bs-toggle="tab" data-bs-target="#tech-Mobile" type="button" role="tab" aria-controls="tech-Mobile" aria-selected="true">
+                                            <li className="nav-item" role="presentation">
+                                                <button className="nav-link active" id="Mobile-tab" data-bs-toggle="tab" data-bs-target="#tech-Mobile" type="button" role="tab" aria-controls="tech-Mobile" aria-selected="true">
                                                     Mobile</button>
                                             </li>
                                         </ul>
-                                        <div class="tab-content" id="technologyTabContent">
-                                            <div class="tab-pane fade" id="tech-Front-End" role="tabpanel" aria-labelledby="Front-End-tab">
-                                                <div class="row g-4 align-items-end">
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-                                                        <div class="single-technology btn_wrapper big technology-sec-style">
-                                                            <div class="icon">
+                                        <div className="tab-content" id="technologyTabContent">
+                                            <div className="tab-pane fade" id="tech-Front-End" role="tabpanel" aria-labelledby="Front-End-tab">
+                                                <div className="row g-4 align-items-end">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                        <div className="single-technology btn_wrapper big technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/html.svg" alt="Logo" />
                                                             </div>
                                                             <span>HTML</span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/css.svg" alt="Logo" />
                                                             </div>
                                                             <span>CSS</span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/javascript.svg" alt="Logo" />
                                                             </div>
                                                             <span>Javascript</span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/vue.svg" alt="Logo" />
                                                             </div>
                                                             <span>Vue JS</span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/react.svg" alt="Logo" />
                                                             </div>
                                                             <span>React JS</span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-                                                        <div class="single-technology btn_wrapper big technology-sec-style">
-                                                            <div class="icon">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                        <div className="single-technology btn_wrapper big technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/angular.svg" alt="Logo" />
                                                             </div>
                                                             <span>Angular JS</span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/d3.svg" alt="Logo" />
                                                             </div>
                                                             <span>D3 JS</span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/jquery.svg" alt="Logo" />
                                                             </div>
                                                             <span>JQuery</span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/typescript.svg" alt="Logo" />
                                                             </div>
                                                             <span>TypeScript</span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/graphql.svg" alt="Logo" />
                                                             </div>
                                                             <span>GraphQL</span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="tab-pane fade" id="tech-Back-End" role="tabpanel" aria-labelledby="Back-End-tab">
-                                                <div class="row g-4 align-items-end">
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                            <div className="tab-pane fade" id="tech-Back-End" role="tabpanel" aria-labelledby="Back-End-tab">
+                                                <div className="row g-4 align-items-end">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper big technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper big technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/node-js.svg" alt="Logo" />
                                                             </div>
                                                             <span>Node JS</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/ruby.svg" alt="Logo" />
                                                             </div>
                                                             <span>Ruby</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/django.svg" alt="Logo" />
                                                             </div>
                                                             <span>D Jnago</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/express-js.svg" alt="Logo" />
                                                             </div>
                                                             <span>Express JS</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/asp.svg" alt="Logo" />
                                                             </div>
                                                             <span>ASP .Net</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper big technology-sec-style" >
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper big technology-sec-style" >
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/laravel.svg" alt="Logo" />
                                                             </div>
                                                             <span>Laravel</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
                                                             </div>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
                                                             </div>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/firebase.svg" alt="Logo" />
                                                             </div>
                                                             <span>Firebase</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
                                                             </div>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
                                                             </div>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
                                                             </div>
                                                         </div></div>
                                                 </div>
                                             </div>
-                                            <div class="tab-pane fade active show" id="tech-Mobile" role="tabpanel" aria-labelledby="Mobile-tab">
-                                                <div class="row g-4 align-items-end">
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                            <div className="tab-pane fade active show" id="tech-Mobile" role="tabpanel" aria-labelledby="Mobile-tab">
+                                                <div className="row g-4 align-items-end">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper big technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper big technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/flutter.svg" alt="Logo" />
                                                             </div>
                                                             <span>Flutter</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/android.svg" alt="Logo" />
                                                             </div>
                                                             <span>Android</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/ios.svg" alt="Logo" />
                                                             </div>
                                                             <span>Iso App</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/firebase.svg" alt="Logo" />
                                                             </div>
                                                             <span>Firebase</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/react.svg" alt="Logo" />
                                                             </div>
                                                             <span>React Native</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper big technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper big technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/swift.svg" alt="Logo" />
                                                             </div>
                                                             <span>Swift</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
                                                             </div>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
                                                             </div>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/java.svg" alt="Logo" />
                                                             </div>
                                                             <span>Java</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 <img decoding="async" src="images/kotlin.svg" alt="Logo" />
                                                             </div>
                                                             <span>Kotlin</span>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
                                                             </div>
                                                         </div></div>
-                                                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
-                                                        <div class="single-technology btn_wrapper technology-sec-style">
-                                                            <div class="icon">
+                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                            <div className="icon">
                                                                 {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
                                                             </div>
                                                         </div>
@@ -1089,16 +1089,16 @@ export default function About_Us() {
 
             {/* Latest Blog Section */}
             <div>
-                <div class="home2-blog-sec">
+                <div className="home2-blog-sec">
                     <div className="container-lg container-fluid">
-                        <div class="row mb-60">
-                            <div class="section-title four white text-animation vector-and-review">
+                        <div className="row mb-60">
+                            <div className="section-title four white text-animation vector-and-review">
                                 <div className='techno-stlye-1'>
                                     <h2>Our Latest  <span className='text-start'>ARTICLE</span></h2>
                                 </div>
                                 <div className='techno-style-2'>
-                                    <div class="dash-and-paragraph three">
-                                        <div class="btn-and-paragraph">
+                                    <div className="dash-and-paragraph three">
+                                        <div className="btn-and-paragraph">
                                             <p className='vector-and-review'>
                                                 <div className='techno-style-3'>Services to help businesses establish and enhance  </div>
                                                 <div className='techno-style-3'>theironline presence.</div>
@@ -1110,15 +1110,15 @@ export default function About_Us() {
                         </div>
 
                     </div>
-                    <div class="home2-blog-section">
-                        <div class="container-lg container-fluid">
-                            <div class="row g-4">
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="magnetic-wrap"><div class="blog-card2 magnetic-item">
-                                        <a href="https://axleo-wp.egenslab.com/comprehensive-seo-services-for-increased-visibility/" class="blog-img">
-                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img12-600x400.webp" class="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
-                                        <div class="blog-content">
-                                            <ul class="tags">
+                    <div className="home2-blog-section">
+                        <div className="container-lg container-fluid">
+                            <div className="row g-4">
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
+                                        <a href="https://axleo-wp.egenslab.com/comprehensive-seo-services-for-increased-visibility/" className="blog-img">
+                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img12-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
+                                        <div className="blog-content">
+                                            <ul className="tags">
                                                 <li>
                                                     <a href="https://axleo-wp.egenslab.com/category/innovative/">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
@@ -1141,7 +1141,7 @@ export default function About_Us() {
                                                 </li>
                                             </ul>
                                             <h4><a href="https://axleo-wp.egenslab.com/comprehensive-seo-services-for-increased-visibility/">Comprehensive SEO Services for Increased Visibility</a></h4>
-                                            <a class="explore-btn" href="https://axleo-wp.egenslab.com/comprehensive-seo-services-for-increased-visibility/">
+                                            <a className="explore-btn" href="https://axleo-wp.egenslab.com/comprehensive-seo-services-for-increased-visibility/">
                                                 Read More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                     <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                                 </svg>
@@ -1149,12 +1149,12 @@ export default function About_Us() {
                                         </div>
                                     </div></div>
                                 </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="magnetic-wrap"><div class="blog-card2 magnetic-item">
-                                        <a href="https://axleo-wp.egenslab.com/professional-web-design-for-modern-businesses/" class="blog-img">
-                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img11-600x400.webp" class="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
-                                        <div class="blog-content">
-                                            <ul class="tags">
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
+                                        <a href="https://axleo-wp.egenslab.com/professional-web-design-for-modern-businesses/" className="blog-img">
+                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img11-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
+                                        <div className="blog-content">
+                                            <ul className="tags">
                                                 <li>
                                                     <a href="https://axleo-wp.egenslab.com/category/creative-design/">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
@@ -1177,7 +1177,7 @@ export default function About_Us() {
                                                 </li>
                                             </ul>
                                             <h4><a href="https://axleo-wp.egenslab.com/professional-web-design-for-modern-businesses/">Professional Web Design for Modern Businesses</a></h4>
-                                            <a class="explore-btn" href="https://axleo-wp.egenslab.com/professional-web-design-for-modern-businesses/">
+                                            <a className="explore-btn" href="https://axleo-wp.egenslab.com/professional-web-design-for-modern-businesses/">
                                                 Read More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                     <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                                 </svg>
@@ -1185,12 +1185,12 @@ export default function About_Us() {
                                         </div>
                                     </div></div>
                                 </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="magnetic-wrap"><div class="blog-card2 magnetic-item">
-                                        <a href="https://axleo-wp.egenslab.com/creative-branding-solutions-to-elevate-your-brand/" class="blog-img">
-                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img10-600x400.webp" class="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
-                                        <div class="blog-content">
-                                            <ul class="tags">
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
+                                        <a href="https://axleo-wp.egenslab.com/creative-branding-solutions-to-elevate-your-brand/" className="blog-img">
+                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img10-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
+                                        <div className="blog-content">
+                                            <ul className="tags">
                                                 <li>
                                                     <a href="https://axleo-wp.egenslab.com/category/creative-design/">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
@@ -1213,7 +1213,7 @@ export default function About_Us() {
                                                 </li>
                                             </ul>
                                             <h4><a href="https://axleo-wp.egenslab.com/creative-branding-solutions-to-elevate-your-brand/">Creative Branding Solutions to Elevate Your Brand</a></h4>
-                                            <a class="explore-btn" href="https://axleo-wp.egenslab.com/creative-branding-solutions-to-elevate-your-brand/">
+                                            <a className="explore-btn" href="https://axleo-wp.egenslab.com/creative-branding-solutions-to-elevate-your-brand/">
                                                 Read More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                     <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                                 </svg>
@@ -1230,18 +1230,18 @@ export default function About_Us() {
             {/* Lets Talk Section */}
             <div>
                 <div className='lets-contact-section'>
-                    <div class="contact-section">
-                        <div class="container-lg container-fluid">
-                            <div class="row g-lg-4 gy-5">
-                                <div class="col-lg-8">
-                                    <div class="section-title text-animation vector-and-review">
+                    <div className="contact-section">
+                        <div className="container-lg container-fluid">
+                            <div className="row g-lg-4 gy-5">
+                                <div className="col-lg-8">
+                                    <div className="section-title text-animation vector-and-review">
                                         <div className='lest-talk-sec-style-1'>
                                             <h2>Let’s <span>TALK</span></h2>
                                         </div>
                                         <div className='lest-talk-sec-style-2'>
-                                            <div class="dash-and-paragraph">
-                                                <div class="dash"></div>
-                                                <div class="content-and-social">
+                                            <div className="dash-and-paragraph">
+                                                <div className="dash"></div>
+                                                <div className="content-and-social">
                                                     <p className='vector-and-review'>
                                                         <div className='lest-talk-sec-style-3'>Crafting a contact text for a digital agency
                                                         </div>
@@ -1249,32 +1249,32 @@ export default function About_Us() {
                                                         </div>
                                                         <div className='lest-talk-sec-style-3'>clients or collaborators to reach out.</div>
                                                     </p>
-                                                    <div class="social-area">
+                                                    <div className="social-area">
                                                         <h6>Connect Us</h6>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="6" viewBox="0 0 50 6">
                                                             <path d="M50 3L45 0.113249V5.88675L50 3ZM0 3.5H45.5V2.5H0V3.5Z"></path>
                                                         </svg>
                                                         <ul>
                                                             <li><a href="#">
-                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fab-facebook-f" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a>
+                                                                <svg aria-hidden="true" className="e-font-icon-svg e-fab-facebook-f" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a>
                                                             </li>
                                                             <li><a href="#">
-                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fab-x-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg></a>
+                                                                <svg aria-hidden="true" className="e-font-icon-svg e-fab-x-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg></a>
                                                             </li>
                                                             <li><a href="#">
-                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></a>
+                                                                <svg aria-hidden="true" className="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></a>
                                                             </li>
                                                             <li><a href="#">
-                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a>
+                                                                <svg aria-hidden="true" className="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a>
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </div></div></div>
                                 </div>
-                                <div class="col-lg-4 d-lg-flex justify-content-end align-items-center">
-                                    <div class="btn_wrapper lets-talk-btn-style">
-                                        <a class="circle-btn btn-hover" href="https://axleo-wp.egenslab.com/contact-us/" target="_blank" rel="nofollow">
+                                <div className="col-lg-4 d-lg-flex justify-content-end align-items-center">
+                                    <div className="btn_wrapper lets-talk-btn-style">
+                                        <a className="circle-btn btn-hover" href="https://axleo-wp.egenslab.com/contact-us/" target="_blank" rel="nofollow">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                 <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
                                                 </path>

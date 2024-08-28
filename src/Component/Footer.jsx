@@ -3,26 +3,26 @@ import React from 'react'
 export default function Footer() {
     return (
         <div>
-            <footer class="">
-                <div class="vector d-lg-flex d-none">
+            <footer>
+                <div className="vector d-lg-flex d-none">
                     <svg width="300" height="372" viewBox="0 0 300 372" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g>
                             <circle cx="-20" cy="320" r="270" stroke-width="100"></circle>
                         </g>
                     </svg>
                 </div>
-                <div class="container-lg container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div data-elementor-type="wp-post" data-elementor-id="135" class="elementor elementor-135">
-                                <div class="elementor-element elementor-element-08c3f47 e-con-full e-flex e-con e-parent e-lazyloaded" data-id="08c3f47" data-element_type="container">
-                                    <div class="elementor-element elementor-element-886ea14 elementor-widget elementor-widget-axleo_footer_one" data-id="886ea14" data-element_type="widget" data-widget_type="axleo_footer_one.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="footer-top">
-                                                <div class="row g-lg-4 gy-5 mb-90">
-                                                    <div class="col-xl-6 col-lg-6 col-md-8 d-flex justify-content-lg-start">
-                                                        <div class="footer-widget">
-                                                            <div class="subscribed-area">
+                <div className="container-lg container-fluid">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div data-elementor-type="wp-post" data-elementor-id="135" className="elementor elementor-135">
+                                <div className="elementor-element elementor-element-08c3f47 e-con-full e-flex e-con e-parent e-lazyloaded" data-id="08c3f47" data-element_type="container">
+                                    <div className="elementor-element elementor-element-886ea14 elementor-widget elementor-widget-axleo_footer_one" data-id="886ea14" data-element_type="widget" data-widget_type="axleo_footer_one.default">
+                                        <div className="elementor-widget-container">
+                                            <div className="footer-top">
+                                                <div className="row g-lg-4 gy-5 mb-90">
+                                                    <div className="col-xl-6 col-lg-6 col-md-8 d-flex justify-content-lg-start">
+                                                        <div className="footer-widget">
+                                                            <div className="subscribed-area">
                                                                 <h3>Don’t Missed Subscribed!</h3>
                                                                 {/* <script>(function() {
                                                                     window.mc4wp = window.mc4wp || {
@@ -40,7 +40,7 @@ export default function Footer() {
                                                                     }
                                                                 })();
                                                                 </script> */}
-                                                                <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-152" method="post" data-id="152" data-name="subscribe"><div class="mc4wp-form-fields"><div class="form-inner">
+                                                                <form id="mc4wp-form-1" className="mc4wp-form mc4wp-form-152" method="post" data-id="152" data-name="subscribe"><div className="mc4wp-form-fields"><div className="form-inner">
                                                                     <input type="email" name="EMAIL" placeholder="Enter Email" required="" />
                                                                     <button type="submit">
                                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
@@ -55,18 +55,18 @@ export default function Footer() {
                                                                     <input type="hidden" name="_mc4wp_timestamp" value="1724472346" />
                                                                     <input type="hidden" name="_mc4wp_form_id" value="152" />
                                                                     <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
-                                                                    <div class="mc4wp-response">
+                                                                    <div className="mc4wp-response">
                                                                     </div>
                                                                 </form>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-xl-3 col-lg-3 col-sm-6 d-flex justify-content-lg-center">
-                                                        <div class="footer-widget">
-                                                            <div class="widget-title">
+                                                    <div className="col-xl-3 col-lg-3 col-sm-6 d-flex justify-content-lg-center">
+                                                        <div className="footer-widget">
+                                                            <div className="widget-title">
                                                                 <h4>Company</h4>
                                                             </div>
-                                                            <div class="menu-container">
+                                                            <div className="menu-container">
                                                                 <ul>
                                                                     <li>
                                                                         <a href="https://axleo-wp.egenslab.com/about-us/">About Us <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
@@ -102,12 +102,12 @@ export default function Footer() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-xl-3 col-lg-3 col-sm-6 d-flex justify-content-lg-end">
-                                                        <div class="footer-widget">
-                                                            <div class="widget-title">
+                                                    <div className="col-xl-3 col-lg-3 col-sm-6 d-flex justify-content-lg-end">
+                                                        <div className="footer-widget">
+                                                            <div className="widget-title">
                                                                 <h4>Our Solutions</h4>
                                                             </div>
-                                                            <div class="menu-container">
+                                                            <div className="menu-container">
                                                                 <ul>
                                                                     <li>
                                                                         <a href="https://axleo-wp.egenslab.com/services/web-development/">App Application <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
@@ -144,9 +144,9 @@ export default function Footer() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row justify-content-end mb-60">
-                                                    <div class="col-xl-7 d-flex justify-content-lg-end">
-                                                        <div class="solial-account">
+                                                <div className="row justify-content-end mb-60">
+                                                    <div className="col-xl-7 d-flex justify-content-lg-end">
+                                                        <div className="solial-account">
                                                             <ul>
                                                                 <li><a href="https://www.linkedin.com/">Linkedln</a></li>
                                                                 <li><a href="https://www.facebook.com/">Facebook</a></li>
@@ -156,18 +156,18 @@ export default function Footer() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-lg-12">
-                                                        <div class="footer-logo-contact-wrap">
-                                                            <div class="footer-logo">
+                                                <div className="row">
+                                                    <div className="col-lg-12">
+                                                        <div className="footer-logo-contact-wrap">
+                                                            <div className="footer-logo">
                                                                 <a href="#"><img src="https://bunny-wp-pullzone-h3acpg153d.b-cdn.net/wp-content/uploads/2024/05/white-logo.svg" alt="footer-logo" /></a>
                                                             </div>
-                                                            <ul class="footer-contact">
-                                                                <li class="single-contact">
+                                                            <ul className="footer-contact">
+                                                                <li className="single-contact">
                                                                     <span>Phone</span>
                                                                     <h5><a href="tel:9917636844563">+991 - 763 684 4563 </a></h5>
                                                                 </li>
-                                                                <li class="single-contact">
+                                                                <li className="single-contact">
                                                                     <span>Email Now</span>
                                                                     <h5><a href="mailto:info@examplegmail.com">info@examplegmail.com</a>
                                                                     </h5>
@@ -179,13 +179,13 @@ export default function Footer() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-c4619e3 elementor-widget elementor-widget-axleo_footer_copyright_area" data-id="c4619e3" data-element_type="widget" data-widget_type="axleo_footer_copyright_area.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="footer-btm">
-                                                <div class="copyright-area">
+                                    <div className="elementor-element elementor-element-c4619e3 elementor-widget elementor-widget-axleo_footer_copyright_area" data-id="c4619e3" data-element_type="widget" data-widget_type="axleo_footer_copyright_area.default">
+                                        <div className="elementor-widget-container">
+                                            <div className="footer-btm">
+                                                <div className="copyright-area">
                                                     <p>Copyright 2024 <a href="#">axleo</a> | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
                                                 </div>
-                                                <div class="terms-condition">
+                                                <div className="terms-condition">
                                                     <p>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                             <g>
