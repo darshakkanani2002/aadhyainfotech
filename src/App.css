@@ -1154,6 +1154,9 @@ a {
   border: 2px solid #c4c4c4;
   border-radius: 50%;
   padding: 4px;
+  position: sticky;
+  top: 100px;
+
 }
 
 .our-solution-circle-2 {
@@ -1251,6 +1254,12 @@ a {
 
 .home2-portfolio-section .section-title .work-dash-and-paragraph .btn-and-paragraph {
   margin-top: -35px;
+}
+
+@media (max-width:768px) {
+  .home2-portfolio-section .section-title .work-dash-and-paragraph .btn-and-paragraph {
+    margin-top: 35px;
+  }
 }
 
 .work-dash-and-paragraph.three .btn-and-paragraph a {
@@ -1767,7 +1776,6 @@ a {
 .section-title .dash-and-paragraph {
   display: flex;
   align-items: center;
-  gap: 20px;
   padding-top: 15px;
   flex-wrap: wrap;
 }
@@ -2031,6 +2039,7 @@ footer .footer-top .footer-logo-contact-wrap .footer-contact {
   display: flex;
   align-items: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 footer .footer-top .footer-logo-contact-wrap .footer-contact .single-contact {
@@ -2065,6 +2074,12 @@ footer .footer-top .footer-logo-contact-wrap .footer-contact .single-contact h5 
   font-size: 22px;
   font-weight: 500;
   transition: .35s;
+}
+
+@media (max-width:425px) {
+  footer .footer-top .footer-logo-contact-wrap .footer-contact .single-contact h5 a {
+    font-size: 15px;
+  }
 }
 
 footer .footer-top .footer-logo-contact-wrap .footer-contact .single-contact:last-child {
@@ -2109,4 +2124,17 @@ footer .footer-btm .terms-condition p a {
   color: #fff;
   text-decoration: underline;
   transition: .35s;
+}
+
+footer .menu-container ul li a svg {
+  fill: #fff;
+  opacity: 0;
+  transition: .35s;
+  margin-left: -5px;
+}
+
+footer .menu-container ul li a:hover svg {
+  opacity: 1;
+  margin-left: 0;
+  transform: rotate(45deg);
 }

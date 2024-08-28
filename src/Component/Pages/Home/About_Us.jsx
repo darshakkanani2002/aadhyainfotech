@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Testimonial from './Testimonial'
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
+import Project from './Project';
 
 export default function About_Us() {
     const [countStarted, setCountStarted] = useState
@@ -314,8 +315,8 @@ export default function About_Us() {
             </div>
 
             {/* Exper and projects */}
-
-            <div className='expert-section'>
+            <Project></Project>
+            {/* <div className='expert-section'>
                 <div class="home2-counter-area">
                     <div class="container-lg container-fluid">
                         <div class="row justify-content-lg-center justify-content-center">
@@ -356,7 +357,7 @@ export default function About_Us() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* inovative idea section */}
             <div>
@@ -425,7 +426,7 @@ export default function About_Us() {
                     </div>
                     <div className='row'>
                         <div className='col-lg-6'>
-                            <div className='position-relative'>
+                            <div className='position-sticky top-0'>
                                 <div className='d-flex justify-content-center'>
                                     <div className='our-solution-circle-1'>
                                         <div className='our-solution-circle-2 d-flex justify-content-center align-items-center'>
@@ -1115,7 +1116,7 @@ export default function About_Us() {
                                 <div class="col-lg-4 col-md-6">
                                     <div class="magnetic-wrap"><div class="blog-card2 magnetic-item">
                                         <a href="https://axleo-wp.egenslab.com/comprehensive-seo-services-for-increased-visibility/" class="blog-img">
-                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img12-600x400.webp" class="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid' alt="" /> </a>
+                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img12-600x400.webp" class="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
                                         <div class="blog-content">
                                             <ul class="tags">
                                                 <li>
@@ -1151,7 +1152,7 @@ export default function About_Us() {
                                 <div class="col-lg-4 col-md-6">
                                     <div class="magnetic-wrap"><div class="blog-card2 magnetic-item">
                                         <a href="https://axleo-wp.egenslab.com/professional-web-design-for-modern-businesses/" class="blog-img">
-                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img11-600x400.webp" class="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid' alt="" /> </a>
+                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img11-600x400.webp" class="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
                                         <div class="blog-content">
                                             <ul class="tags">
                                                 <li>
@@ -1187,7 +1188,7 @@ export default function About_Us() {
                                 <div class="col-lg-4 col-md-6">
                                     <div class="magnetic-wrap"><div class="blog-card2 magnetic-item">
                                         <a href="https://axleo-wp.egenslab.com/creative-branding-solutions-to-elevate-your-brand/" class="blog-img">
-                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img10-600x400.webp" class="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid' alt="" /> </a>
+                                            <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img10-600x400.webp" class="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image" className='img-fluid w-100' alt="" /> </a>
                                         <div class="blog-content">
                                             <ul class="tags">
                                                 <li>
