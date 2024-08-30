@@ -1,7 +1,16 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home() {
     const bannerImgRef = useRef(null);
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000, // duration of the animations (default: 1000ms)
+            once: true, // whether animation should happen only once - while scrolling down
+        });
+    }, []);
 
     const handleMouseMove = (e) => {
         const bannerImg = bannerImgRef.current;
@@ -12,7 +21,7 @@ export default function Home() {
         const moveX = (xPos - 0.5) * 30; // Adjust the multiplier for more or less movement
         const moveY = (yPos - 0.5) * 30;
 
-        bannerImg.style.transform = `translate(${moveX}px, ${moveY}px) scale(1.1)`;
+        bannerImg.style.transform = `translate(${moveX}px, ${moveY}px) scale(1.02)`;
     };
 
     const handleMouseLeave = () => {
@@ -20,7 +29,7 @@ export default function Home() {
         bannerImg.style.transform = 'translate(0px, 0px) scale(1)';
     };
     return (
-        <div>   
+        <div>
             {/* hero section */}
             <div className='hero-section'>
                 <div className='container-xl container-fluid'>
@@ -55,7 +64,7 @@ export default function Home() {
                                     </div>
                                     <div className="content-and-btn text-animation" style={{ perspective: "400px" }}>
                                         <div className='hero-banner-review-text'>
-                                            <p style={{ perspective: "400px" }}>
+                                            <p style={{ perspective: "400px" }} data-aos="fade-up">
                                                 <div className='hero-banner-review-text'>Axleo is a business that provides services related to online </div>
                                                 <div className='hero-banner-review-text'><span>marketing,web development, design,</span>  and other digital </div>
                                                 <div className='hero-banner-review-text' s>solutions clients.</div>

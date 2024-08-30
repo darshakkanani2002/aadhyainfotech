@@ -1761,6 +1761,10 @@ a {
   scale: none;
   transform: translate(0px, 0px);
   opacity: 1;
+  background: #1a1a1a;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
 }
 
 .contact-section .section-title h2 {
@@ -1880,9 +1884,13 @@ a {
   fill: #fff;
 }
 
-.btn-hover :hover {
+.lets-talk-btn-style :hover {
   background-color: #f4cb0a;
   color: #1a1a1a;
+}
+
+.lets-talk-btn-style :hover svg {
+  fill: #1a1a1a;
 }
 
 /* Footer Section css */
@@ -2137,4 +2145,62 @@ footer .menu-container ul li a:hover svg {
   opacity: 1;
   margin-left: 0;
   transform: rotate(45deg);
+}
+
+/* circle Progressbaar */
+.circle-container {
+  height: 200vh;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.circle-container:before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 125vmax;
+  height: 125vmax;
+  border-radius: 100%;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  box-shadow: 0 0 20px pink;
+  transition: all 500ms cubic-bezier(.49, .23, 0, .99);
+  opacity: 0;
+
+}
+
+.completed:before {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 0.5;
+}
+
+.our-solution-circle {
+  position: sticky;
+  transform: rotate(-90deg);
+}
+
+.our-solution-circle circle {
+  stroke: rgba(0, 0, 0, 0.1);
+  stroke-width: 10px;
+  stroke-linecap: round;
+  fill: transparent;
+}
+
+.our-solution-circle .progress-bar {
+  stroke: url(#grad);
+  transition: stroke-dashoffset 0 ease-in-out;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.2));
+}
+
+.pct {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
 }
