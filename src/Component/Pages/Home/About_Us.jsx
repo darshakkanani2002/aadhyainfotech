@@ -27,6 +27,25 @@ export default function About_Us() {
         });
     }, []);
 
+    // for images magnetic
+    const bannerImgRef = useRef(null);
+    const handleMouseMove = (e) => {
+        const bannerImg = bannerImgRef.current;
+        const { left, top, width, height } = bannerImg.getBoundingClientRect();
+        const xPos = (e.clientX - left) / width;
+        const yPos = (e.clientY - top) / height;
+
+        const moveX = (xPos - 0.5) * 30; // Adjust the multiplier for more or less movement
+        const moveY = (yPos - 0.5) * 30;
+
+        bannerImg.style.transform = `translate(${moveX}px, ${moveY}px) scale(1)`;
+    };
+
+    const handleMouseLeave = () => {
+        const bannerImg = bannerImgRef.current;
+        bannerImg.style.transform = 'translate(0px, 0px) scale(1)';
+    };
+
     return (
         <div >
             {/* About Our Comppany section */}
@@ -117,7 +136,11 @@ export default function About_Us() {
                         </div>
                         <div className="col-lg-7">
                             <div className="row g-4">
-                                <div className="col-sm-5">
+                                <div className="col-sm-5"
+                                    ref={bannerImgRef}
+                                    onMouseMove={handleMouseMove}
+                                    onMouseLeave={handleMouseLeave}
+                                >
                                     <div className="about-left">
                                         <div className="about-img magnetic-item">
                                             <img decoding="async" src="images/about-02.webp" alt="image" className='img-fluid' />
@@ -148,7 +171,7 @@ export default function About_Us() {
                                 <div className='to-smart-solution'>
                                     <div className="dash-and-paragraph three" data-aos="flip-up">
                                         <div className="btn-and-paragraph">
-                                            <a className='text-decoration-none' href="https://axleo-wp.egenslab.com/services/service-style-01/">Explore more <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                            <a className='text-decoration-none' href="#">Explore more <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                 <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
                                                 </path>
                                             </svg>
@@ -189,7 +212,7 @@ export default function About_Us() {
                                             <a href="#">Visual</a>
                                         </li>
                                     </ul>
-                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/ui-ux-design/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="#" target="_top" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                     </svg><span style={{ top: "49.7px", left: "58.4px;" }}></span>
                                     </a>
@@ -214,7 +237,7 @@ export default function About_Us() {
                                             <a href="#">Visual</a>
                                         </li>
                                     </ul>
-                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/web-development/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="#" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                     </svg><span style={{ top: "-314.3px", left: "28.45px" }}></span>
                                     </a>
@@ -239,7 +262,7 @@ export default function About_Us() {
                                             <a href="#">Wireframe</a>
                                         </li>
                                     </ul>
-                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/email-marketing/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="#" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                     </svg><span></span>
                                     </a>
@@ -264,7 +287,7 @@ export default function About_Us() {
                                             <a href="#">Wireframe</a>
                                         </li>
                                     </ul>
-                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/web-development/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="#" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                     </svg><span></span>
                                     </a>
@@ -289,7 +312,7 @@ export default function About_Us() {
                                             <a href="#">Design</a>
                                         </li>
                                     </ul>
-                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/branding-design/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="#" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                     </svg><span style={{ top: "53.1px", left: "5.45001px" }}></span>
                                     </a>
@@ -314,9 +337,10 @@ export default function About_Us() {
                                             <a href="#">Typography</a>
                                         </li>
                                     </ul>
-                                    <a className="primary-btn2 btn-hover" href="https://axleo-wp.egenslab.com/services/web-development/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                    <a className="primary-btn2 btn-hover" href="#" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                                    </svg><span></span>
+                                    </svg>
+                                        <span></span>
                                     </a>
                                 </div>
                             </div>
@@ -367,7 +391,7 @@ export default function About_Us() {
 
             {/* Our Solution Process Section  */}
             <Our_solution></Our_solution>
-            
+
             {/* Work Section */}
             <div>
                 <div>
@@ -384,7 +408,7 @@ export default function About_Us() {
                                                 <div className="dash d-lg-block d-md-block d-sm-none d-none">
                                                 </div>
                                                 <div className="btn-and-paragraph">
-                                                    <a href="https://axleo-wp.egenslab.com/portfolio-masonery/" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                                    <a href="#" target="_blank" rel="nofollow">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                         <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
                                                         </path>
                                                     </svg>
@@ -402,12 +426,16 @@ export default function About_Us() {
                             <div className="row gy-lg-5 g-4 justify-content-between py-5">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="magnetic-wrap">
-                                        <div className="portfolio-card magnetic-item">
+                                        <div className="portfolio-card magnetic-item"
+                                            ref={bannerImgRef}
+                                            onMouseMove={handleMouseMove}
+                                            onMouseLeave={handleMouseLeave}
+                                        >
                                             <div className="image-and-tag">
                                                 <ul className="tag">
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/color/">color</a></li>
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/development/">Development</a></li>
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/web-design/">Web Design</a></li>
+                                                    <li><a href="#">color</a></li>
+                                                    <li><a href="#">Development</a></li>
+                                                    <li><a href="#">Web Design</a></li>
                                                 </ul>
                                                 <div className="portfolio-img position-relative">
                                                     <img fetchpriority="high" decoding="async" width="1920" height="1000" src="images/interactive-05.jpg" className="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" alt="" />
@@ -421,7 +449,7 @@ export default function About_Us() {
                                             </div>
                                             <div className="portfolio-content">
                                                 <h4>
-                                                    <a href="https://axleo-wp.egenslab.com/portfolio/sculpting-thefuture/">Sculpting theFuture</a>
+                                                    <a href="#">Sculpting theFuture</a>
                                                 </h4>
                                             </div>
                                         </div>
@@ -432,9 +460,9 @@ export default function About_Us() {
                                         <div className="portfolio-card magnetic-item">
                                             <div className="image-and-tag">
                                                 <ul className="tag">
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/campaign/">Campaign</a></li>
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/testing/">testing</a></li>
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/web-design/">Web Design</a></li>
+                                                    <li><a href="#">Campaign</a></li>
+                                                    <li><a href="#">testing</a></li>
+                                                    <li><a href="#">Web Design</a></li>
                                                 </ul>
                                                 <div className="portfolio-img position-relative">
                                                     <img decoding="async" width="1920" height="1000" src="images/interactive-04.jpg" className="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" />
@@ -448,7 +476,7 @@ export default function About_Us() {
                                             </div>
                                             <div className="portfolio-content">
                                                 <h4>
-                                                    <a href="https://axleo-wp.egenslab.com/portfolio/where-vision-meets-technology/">Where Vision Meets Technology.</a>
+                                                    <a href="#">Where Vision Meets Technology.</a>
                                                 </h4>
                                             </div>
                                         </div>
@@ -459,9 +487,9 @@ export default function About_Us() {
                                         <div className="portfolio-card magnetic-item">
                                             <div className="image-and-tag">
                                                 <ul className="tag">
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/development/">Development</a></li>
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/software/">Software</a></li>
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/web-design/">Web Design</a></li>
+                                                    <li><a href="#">Development</a></li>
+                                                    <li><a href="#">Software</a></li>
+                                                    <li><a href="#">Web Design</a></li>
                                                 </ul>
                                                 <div className="portfolio-img position-relative">
                                                     <img decoding="async" width="1920" height="1000" src="images/interactive-03.jpg" className="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" alt="" />
@@ -475,7 +503,7 @@ export default function About_Us() {
                                             </div>
                                             <div className="portfolio-content">
                                                 <h4>
-                                                    <a href="https://axleo-wp.egenslab.com/portfolio/we-compose-digital-masterpieces/">We Compose Digital Masterpieces.</a>
+                                                    <a href="#">We Compose Digital Masterpieces.</a>
                                                 </h4>
                                             </div>
                                         </div></div>
@@ -485,9 +513,9 @@ export default function About_Us() {
                                         <div className="portfolio-card magnetic-item">
                                             <div className="image-and-tag">
                                                 <ul className="tag">
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/color/">color</a></li>
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/segmentation/">Segmentation</a></li>
-                                                    <li><a href="https://axleo-wp.egenslab.com/portfolio-tag/testing/">testing</a></li>
+                                                    <li><a href="#">color</a></li>
+                                                    <li><a href="#">Segmentation</a></li>
+                                                    <li><a href="#">testing</a></li>
                                                 </ul>
                                                 <div className="portfolio-img position-relative">
                                                     <img loading="lazy" decoding="async" width="1920" height="1000" src="images/interactive-02.jpg" className="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid" alt="" />
@@ -501,7 +529,7 @@ export default function About_Us() {
                                             </div>
                                             <div className="portfolio-content">
                                                 <h4>
-                                                    <a href="https://axleo-wp.egenslab.com/portfolio/corporate-brand-revitalization/">Corporate Brand Revitalization.</a>
+                                                    <a href="#">Corporate Brand Revitalization.</a>
                                                 </h4>
                                             </div>
                                         </div>
@@ -924,12 +952,12 @@ export default function About_Us() {
                             <div className="row g-4">
                                 <div className="col-lg-4 col-md-6">
                                     <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
-                                        <a href="https://axleo-wp.egenslab.com/comprehensive-seo-services-for-increased-visibility/" className="blog-img">
+                                        <a href="3" className="blog-img">
                                             <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img12-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image img-fluid w-100" alt="" /> </a>
                                         <div className="blog-content">
                                             <ul className="tags">
                                                 <li>
-                                                    <a href="https://axleo-wp.egenslab.com/category/innovative/">
+                                                    <a href="#">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                             <path d="M7.58455 3.09152C7.58455 3.4429 7.72414 3.7799 7.9726 4.02837C8.22107 4.27684 8.55807 4.41643 8.90946 4.41643C9.26085 4.41643 9.59785 4.27684 9.84632 4.02837C10.0948 3.7799 10.2344 3.4429 10.2344 3.09152C10.2344 2.74013 10.0948 2.40313 9.84632 2.15466C9.59785 1.90619 9.26085 1.7666 8.90946 1.7666C8.55807 1.7666 8.22107 1.90619 7.9726 2.15466C7.72414 2.40313 7.58455 2.74013 7.58455 3.09152ZM8.46782 3.09152C8.46782 2.97439 8.51435 2.86205 8.59718 2.77923C8.68 2.69641 8.79233 2.64988 8.90946 2.64988C9.02659 2.64988 9.13892 2.69641 9.22175 2.77923C9.30457 2.86205 9.3511 2.97439 9.3511 3.09152C9.3511 3.20865 9.30457 3.32098 9.22175 3.4038C9.13892 3.48662 9.02659 3.53315 8.90946 3.53315C8.79233 3.53315 8.68 3.48662 8.59718 3.4038C8.51435 3.32098 8.46782 3.20865 8.46782 3.09152Z">
                                                             </path>
@@ -938,7 +966,7 @@ export default function About_Us() {
                                                         </svg> Innovative </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://axleo-wp.egenslab.com/20/05/24">
+                                                    <a href="#">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                             <g>
                                                                 <path d="M6 5.25C6.09946 5.25 6.19484 5.28951 6.26517 5.35984C6.33549 5.43016 6.375 5.52554 6.375 5.625V6.75H7.5C7.59946 6.75 7.69484 6.78951 7.76517 6.85983C7.83549 6.93016 7.875 7.02554 7.875 7.125C7.875 7.22446 7.83549 7.31984 7.76517 7.39017C7.69484 7.46049 7.59946 7.5 7.5 7.5H6.375V8.625C6.375 8.72446 6.33549 8.81984 6.26517 8.89017C6.19484 8.96049 6.09946 9 6 9C5.90054 9 5.80516 8.96049 5.73484 8.89017C5.66451 8.81984 5.625 8.72446 5.625 8.625V7.5H4.5C4.40054 7.5 4.30516 7.46049 4.23484 7.39017C4.16451 7.31984 4.125 7.22446 4.125 7.125C4.125 7.02554 4.16451 6.93016 4.23484 6.85983C4.30516 6.78951 4.40054 6.75 4.5 6.75H5.625V5.625C5.625 5.52554 5.66451 5.43016 5.73484 5.35984C5.80516 5.28951 5.90054 5.25 6 5.25Z">
@@ -949,8 +977,8 @@ export default function About_Us() {
                                                         </svg> 20 May, 2024 </a>
                                                 </li>
                                             </ul>
-                                            <h4><a href="https://axleo-wp.egenslab.com/comprehensive-seo-services-for-increased-visibility/">Comprehensive SEO Services for Increased Visibility</a></h4>
-                                            <a className="explore-btn" href="https://axleo-wp.egenslab.com/comprehensive-seo-services-for-increased-visibility/">
+                                            <h4><a href="#">Comprehensive SEO Services for Increased Visibility</a></h4>
+                                            <a className="explore-btn" href="#">
                                                 Read More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                     <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                                 </svg>
@@ -960,12 +988,12 @@ export default function About_Us() {
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
-                                        <a href="https://axleo-wp.egenslab.com/professional-web-design-for-modern-businesses/" className="blog-img">
+                                        <a href="#" className="blog-img">
                                             <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img11-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image img-fluid w-100" alt="" /> </a>
                                         <div className="blog-content">
                                             <ul className="tags">
                                                 <li>
-                                                    <a href="https://axleo-wp.egenslab.com/category/creative-design/">
+                                                    <a href="#">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                             <path d="M7.58455 3.09152C7.58455 3.4429 7.72414 3.7799 7.9726 4.02837C8.22107 4.27684 8.55807 4.41643 8.90946 4.41643C9.26085 4.41643 9.59785 4.27684 9.84632 4.02837C10.0948 3.7799 10.2344 3.4429 10.2344 3.09152C10.2344 2.74013 10.0948 2.40313 9.84632 2.15466C9.59785 1.90619 9.26085 1.7666 8.90946 1.7666C8.55807 1.7666 8.22107 1.90619 7.9726 2.15466C7.72414 2.40313 7.58455 2.74013 7.58455 3.09152ZM8.46782 3.09152C8.46782 2.97439 8.51435 2.86205 8.59718 2.77923C8.68 2.69641 8.79233 2.64988 8.90946 2.64988C9.02659 2.64988 9.13892 2.69641 9.22175 2.77923C9.30457 2.86205 9.3511 2.97439 9.3511 3.09152C9.3511 3.20865 9.30457 3.32098 9.22175 3.4038C9.13892 3.48662 9.02659 3.53315 8.90946 3.53315C8.79233 3.53315 8.68 3.48662 8.59718 3.4038C8.51435 3.32098 8.46782 3.20865 8.46782 3.09152Z">
                                                             </path>
@@ -974,7 +1002,7 @@ export default function About_Us() {
                                                         </svg> Creative Design </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://axleo-wp.egenslab.com/20/05/24">
+                                                    <a href="#">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                             <g>
                                                                 <path d="M6 5.25C6.09946 5.25 6.19484 5.28951 6.26517 5.35984C6.33549 5.43016 6.375 5.52554 6.375 5.625V6.75H7.5C7.59946 6.75 7.69484 6.78951 7.76517 6.85983C7.83549 6.93016 7.875 7.02554 7.875 7.125C7.875 7.22446 7.83549 7.31984 7.76517 7.39017C7.69484 7.46049 7.59946 7.5 7.5 7.5H6.375V8.625C6.375 8.72446 6.33549 8.81984 6.26517 8.89017C6.19484 8.96049 6.09946 9 6 9C5.90054 9 5.80516 8.96049 5.73484 8.89017C5.66451 8.81984 5.625 8.72446 5.625 8.625V7.5H4.5C4.40054 7.5 4.30516 7.46049 4.23484 7.39017C4.16451 7.31984 4.125 7.22446 4.125 7.125C4.125 7.02554 4.16451 6.93016 4.23484 6.85983C4.30516 6.78951 4.40054 6.75 4.5 6.75H5.625V5.625C5.625 5.52554 5.66451 5.43016 5.73484 5.35984C5.80516 5.28951 5.90054 5.25 6 5.25Z">
@@ -985,8 +1013,8 @@ export default function About_Us() {
                                                         </svg> 20 May, 2024 </a>
                                                 </li>
                                             </ul>
-                                            <h4><a href="https://axleo-wp.egenslab.com/professional-web-design-for-modern-businesses/">Professional Web Design for Modern Businesses</a></h4>
-                                            <a className="explore-btn" href="https://axleo-wp.egenslab.com/professional-web-design-for-modern-businesses/">
+                                            <h4><a href="#">Professional Web Design for Modern Businesses</a></h4>
+                                            <a className="explore-btn" href="#">
                                                 Read More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                     <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                                 </svg>
@@ -996,7 +1024,7 @@ export default function About_Us() {
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
-                                        <a href="https://axleo-wp.egenslab.com/creative-branding-solutions-to-elevate-your-brand/" className="blog-img">
+                                        <a href="#" className="blog-img">
                                             <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img10-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image img-fluid w-100" alt="" /> </a>
                                         <div className="blog-content">
                                             <ul className="tags">
@@ -1010,7 +1038,7 @@ export default function About_Us() {
                                                         </svg> Creative Design </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://axleo-wp.egenslab.com/20/05/24">
+                                                    <a href="#">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                             <g>
                                                                 <path d="M6 5.25C6.09946 5.25 6.19484 5.28951 6.26517 5.35984C6.33549 5.43016 6.375 5.52554 6.375 5.625V6.75H7.5C7.59946 6.75 7.69484 6.78951 7.76517 6.85983C7.83549 6.93016 7.875 7.02554 7.875 7.125C7.875 7.22446 7.83549 7.31984 7.76517 7.39017C7.69484 7.46049 7.59946 7.5 7.5 7.5H6.375V8.625C6.375 8.72446 6.33549 8.81984 6.26517 8.89017C6.19484 8.96049 6.09946 9 6 9C5.90054 9 5.80516 8.96049 5.73484 8.89017C5.66451 8.81984 5.625 8.72446 5.625 8.625V7.5H4.5C4.40054 7.5 4.30516 7.46049 4.23484 7.39017C4.16451 7.31984 4.125 7.22446 4.125 7.125C4.125 7.02554 4.16451 6.93016 4.23484 6.85983C4.30516 6.78951 4.40054 6.75 4.5 6.75H5.625V5.625C5.625 5.52554 5.66451 5.43016 5.73484 5.35984C5.80516 5.28951 5.90054 5.25 6 5.25Z">
@@ -1021,14 +1049,15 @@ export default function About_Us() {
                                                         </svg> 20 May, 2024 </a>
                                                 </li>
                                             </ul>
-                                            <h4><a href="https://axleo-wp.egenslab.com/creative-branding-solutions-to-elevate-your-brand/">Creative Branding Solutions to Elevate Your Brand</a></h4>
-                                            <a className="explore-btn" href="https://axleo-wp.egenslab.com/creative-branding-solutions-to-elevate-your-brand/">
+                                            <h4><a href="#">Creative Branding Solutions to Elevate Your Brand</a></h4>
+                                            <a className="explore-btn" href="#">
                                                 Read More <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                     <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
                                                 </svg>
                                             </a>
                                         </div>
-                                    </div></div>
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1079,11 +1108,13 @@ export default function About_Us() {
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            </div></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="col-lg-4 d-lg-flex justify-content-end align-items-center">
                                     <div className="btn_wrapper lets-talk-btn-style">
-                                        <a className="circle-btn btn-hover" href="https://axleo-wp.egenslab.com/contact-us/" target="_blank" rel="nofollow">
+                                        <a className="circle-btn btn-hover" href="#" target="_blank" rel="nofollow">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                 <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
                                                 </path>

@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Navbar from './Component/Navbar'
 import Footer from './Component/Footer'
+import Back_to_top from './Component/Back_to_top'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Footer></Footer>
+      <Back_to_top></Back_to_top>
     </div>
   )
 }

@@ -10,6 +10,19 @@ export default function Our_solution() {
         });
     }, []);
 
+
+
+    // callback function example
+    // const clalcuate = (a, b, opearation) => {
+    //     return opearation(a, b);
+    // }
+
+    // const add = clalcuate(8, 3, function (num1, num2) {
+    //     return num1 + num2;
+    // })
+
+    // console.log(add);
+
     // for circle Progressbaar
 
     const containerRef = useRef(null);
@@ -41,8 +54,8 @@ export default function Our_solution() {
         window.addEventListener('resize', handleResize);
 
         return () => {
-            window.removeEventListener('scroll', handleScroll);
-            window.removeEventListener('resize', handleResize);
+            window.addEventListener('scroll', handleScroll);
+            window.addEventListener('resize', handleResize);
         };
     }, []);
 
@@ -71,7 +84,7 @@ export default function Our_solution() {
 
     return (
         <div>
-            <div className='position-relative mt-5 our-solution-sec-back'>
+            <div className='position-relative mt-5 our-solution-sec-back' id='myElement'>
                 <div className='container-lg container-fluid'>
                     <div className='mb-5'>
                         <div className="section-title three text-animation row">
@@ -99,7 +112,7 @@ export default function Our_solution() {
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 d-lg-block d-md-block d-sm-none d-none'>
                             <div className='position-sticky top-0'>
                                 {/* <div className='d-flex justify-content-center'>
                                     <div className='our-solution-circle-1'>
@@ -115,12 +128,12 @@ export default function Our_solution() {
                                 </div> */}
                                 <div class="circle-container position-relative" ref={containerRef}>
                                     <p class="pct position-absolute d-none" ref={pctRef}>0%</p>
-                                    <div className='p-5'>
+                                    <div className='p-5 '>
                                         <svg class="complete our-solution-circle" ref={svgRef} width="400" height="400" viewport="0 0 100 100" xmlns="https://www.w3.org/2000/svg">
                                             <defs>
                                                 <linearGradient id="grad">
-                                                    <stop offset="0%" stop-color="#fbc2eb"></stop>
-                                                    <stop offset="100%" stop-color="#a6c1ee"></stop>
+                                                    <stop offset="0%" stopColor="#fbc2eb"></stop>
+                                                    <stop offset="100%" stopColor="#a6c1ee"></stop>
                                                 </linearGradient>
                                             </defs>
                                             <circle cx="50%" cy="50%" r="150"></circle>

@@ -69,31 +69,31 @@ export default function Footer() {
                                                             <div className="menu-container">
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="https://axleo-wp.egenslab.com/about-us/">About Us <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                                                                        <a href="#">About Us <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                                                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z"></path>
                                                                         </svg>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="https://axleo-wp.egenslab.com/team-style-01/">Our Team <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                                                                        <a href="#">Our Team <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                                                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z"></path>
                                                                         </svg>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="/portfolio/">Our Portfolio <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                                                                        <a href="#">Our Portfolio <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                                                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z"></path>
                                                                         </svg>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="https://axleo-wp.egenslab.com/elementor-hf/footer-two/">Careers <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                                                                        <a href="#">Careers <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                                                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z"></path>
                                                                         </svg>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="https://axleo-wp.egenslab.com/contact-us/">Contact Us <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                                                                        <a href="#">Contact Us <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                                                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z"></path>
                                                                         </svg>
                                                                         </a>
@@ -110,31 +110,31 @@ export default function Footer() {
                                                             <div className="menu-container">
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="https://axleo-wp.egenslab.com/services/web-development/">App Application <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                                                                        <a href="#">App Application <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                                                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z"></path>
                                                                         </svg>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="https://axleo-wp.egenslab.com/services/web-development/">Web Development <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                                                                        <a href="#">Web Development <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                                                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z"></path>
                                                                         </svg>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="https://axleo-wp.egenslab.com/services/ui-ux-design/">UI/UX Design <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                                                                        <a href="#">UI/UX Design <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                                                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z"></path>
                                                                         </svg>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="https://axleo-wp.egenslab.com/services/branding-design/">Cyber Security <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                                                                        <a href="#">Cyber Security <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                                                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z"></path>
                                                                         </svg>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="https://axleo-wp.egenslab.com/services/email-marketing/">Cloud Service <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                                                                        <a href="#">Cloud Service <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                                                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z"></path>
                                                                         </svg>
                                                                         </a>
@@ -148,10 +148,10 @@ export default function Footer() {
                                                     <div className="col-xl-7 d-flex justify-content-lg-end">
                                                         <div className="solial-account">
                                                             <ul>
-                                                                <li><a href="https://www.linkedin.com/">Linkedln</a></li>
-                                                                <li><a href="https://www.facebook.com/">Facebook</a></li>
-                                                                <li><a href="https://www.twitter.com/">Twitter</a></li>
-                                                                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                                                                <li><a href="#">Linkedln</a></li>
+                                                                <li><a href="#">Facebook</a></li>
+                                                                <li><a href="#">Twitter</a></li>
+                                                                <li><a href="#">Instagram</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -183,7 +183,7 @@ export default function Footer() {
                                         <div className="elementor-widget-container">
                                             <div className="footer-btm">
                                                 <div className="copyright-area">
-                                                    <p>Copyright 2024 <a href="#">axleo</a> | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
+                                                    <p>Copyright 2024 <a href="#">axleo</a> | Design By <a href="#">Egens Lab</a></p>
                                                 </div>
                                                 <div className="terms-condition">
                                                     <p>
