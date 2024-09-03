@@ -165,7 +165,7 @@ export default function Footer() {
                                                             <ul className="footer-contact">
                                                                 <li className="single-contact">
                                                                     <span>Phone</span>
-                                                                    <h5><a href="tel:9917636844563">+991 - 763 684 4563 </a></h5>
+                                                                    <h5><a href="tel:919099310347">+91 - 9099310347 </a></h5>
                                                                 </li>
                                                                 <li className="single-contact">
                                                                     <span>Email Now</span>
