@@ -356,8 +356,8 @@ export default function About_Us() {
             <div>
                 <div className='innovativ-banner'>
                     <div className='container-lg container-fluid'>
-                        <div className='row'>
-                            <div className='col-lg-12 overflow-hidden' data-aos="flip-up">
+                        <div className='row overflow-hidden'>
+                            <div className='col-lg-12' data-aos="flip-up">
                                 <div className='innovative-text-sec'>
                                     <div className='innovative-style'>
                                         <h6 className='d-flex align-items-center mb-4'>
