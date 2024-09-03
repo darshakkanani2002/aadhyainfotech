@@ -1113,7 +1113,7 @@ export default function About_Us() {
                                     </div>
                                 </div>
                                 <div className="col-lg-4 d-lg-flex justify-content-end align-items-center">
-                                    <div className="btn_wrapper lets-talk-btn-style">
+                                    <div className="btn_wrapper lets-talk-btn-style d-block m-lg-0 m-md-auto m-auto">
                                         <a className="circle-btn btn-hover" href="#" target="_blank" rel="nofollow">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                                 <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
