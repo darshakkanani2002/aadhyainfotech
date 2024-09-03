@@ -51,7 +51,7 @@ export default function About_Us() {
             {/* About Our Comppany section */}
             <div ref={ref} className='about-us-back'>
                 <div className='container-xl container-fluids about-our-company-sec'>
-                    <div className='mb-5'>
+                    <div className='mb-5 overflow-hidden'>
                         <div className="section-title three text-animation row">
                             <div className='about-our-company col-lg-4' data-aos="flip-up" >
                                 <h2 className='text-lg-start text-md-center text-center'>ABOUT OUR<span>COMPANY</span> </h2>
@@ -163,7 +163,7 @@ export default function About_Us() {
             <div className='to-provide-smart-sec py-5'>
                 <div className="container-xl container-fluids">
                     <div className="row">
-                        <div className="col-lg-12">
+                        <div className="col-lg-12 overflow-hidden">
                             <div className="section-title four text-animation vector-and-review">
                                 <div className='to-smart-solution' data-aos="flip-up">
                                     <h2>TO PROVIDE SMART <span className='text-start'>SOLUTION</span></h2>
@@ -357,7 +357,7 @@ export default function About_Us() {
                 <div className='innovativ-banner'>
                     <div className='container-lg container-fluid'>
                         <div className='row'>
-                            <div className='col-lg-12' data-aos="flip-up">
+                            <div className='col-lg-12 overflow-hidden' data-aos="flip-up">
                                 <div className='innovative-text-sec'>
                                     <div className='innovative-style'>
                                         <h6 className='d-flex align-items-center mb-4'>

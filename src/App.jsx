@@ -7,7 +7,7 @@ import Back_to_top from './Component/Back_to_top'
 function App() {
 
   return (
-    <div className='overflow-hidden'>
+    <div>
       <Navbar></Navbar>
       <Footer></Footer>
       <Back_to_top></Back_to_top>

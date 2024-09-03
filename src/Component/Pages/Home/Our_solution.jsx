@@ -14,7 +14,7 @@ export default function Our_solution() {
         <div>
             <div class="home2-process-section">
                 <div class="container-lg container-fluid">
-                    <div className='mb-5'>
+                    <div className='mb-5 overflow-hidden'>
                         <div className="section-title three text-animation row">
                             <div className='about-our-company col-lg-4 our-solution-style-1' data-aos="flip-up" >
                                 <h2 className='text-lg-start text-md-center text-center'>Our Solution<span>Proccess</span> </h2>
