@@ -1116,6 +1116,204 @@ a {
 }
 
 /* Our Solustion Section Css */
+.our-solution-style-1 {
+  display: block;
+  text-align: start;
+  position: relative;
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform-origin: 169.356px 94.5px;
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+}
+
+.our-solution-style-2 {
+  display: block;
+  text-align: start;
+  position: relative;
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform-origin: 212px 13px;
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+}
+
+.our-solution-style-1 {
+  display: block;
+  text-align: start;
+  position: relative;
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform-origin: 458px 94.5px;
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+}
+
+.our-solustion-circle-style {
+  stroke-dasharray: 942.478, 942.478;
+  stroke-dashoffset: 942.478;
+}
+
+.section-title.three .dash-and-paragraph {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 85px;
+}
+
+.section-title.three .dash-and-paragraph.three>svg {
+  width: 100%;
+  fill: #2F2F2F;
+  /* min-width: 472px; */
+}
+
+.home2-process-section #scroll-progress {
+  position: relative;
+}
+
+.home2-process-section #scroll-progress .progress-wrapper {
+  position: sticky;
+  top: 100px;
+  margin-left: 220px;
+}
+
+@media (max-width:1200px) {
+  .home2-process-section #scroll-progress .progress-wrapper {
+    margin-left: 0px;
+  }
+}
+
+.home2-process-section .progress-wrapper {
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.home2-process-section .progress-wrapper:before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 125vmax;
+  height: 125vmax;
+  border-radius: 100%;
+  background-image: linear-gradient(to top, #F4CB0A 0%, #A6C1EE 100%);
+  box-shadow: 0 0 20px #f4cb0a;
+  transition: all 500ms cubic-bezier(.49, .23, 0, .99);
+  opacity: 0;
+}
+
+.home2-process-section .progress-wrapper .pct {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+  display: none;
+  visibility: hidden;
+}
+
+.home2-process-section .progress-wrapper .counter-wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  z-index: 9;
+}
+
+.home2-process-section .progress-wrapper .steps {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1;
+}
+
+.home2-process-section .progress-wrapper #pageIndicator {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.home2-process-section .progress-wrapper .complete {
+  fill: none;
+  stroke: #222222;
+}
+
+.home2-process-section .progress-wrapper svg circle {
+  stroke: #2f2f2f;
+  stroke-width: 8px;
+  stroke-linecap: round;
+  fill: #1A1A1A;
+}
+
+.home2-process-section .home2-process-wrapper {
+  border-left: 1px solid #222222;
+}
+
+.home2-process-section .single-process-static {
+  position: sticky;
+  top: 30px;
+}
+
+.home2-process-section .single-process {
+  padding-bottom: 45px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #222222;
+  background-color: #161616;
+  padding-left: 25px;
+}
+
+.home2-process-section .single-process .icon {
+  margin-bottom: 40px;
+}
+
+.home2-process-section .single-process .icon svg {
+  fill: #fff;
+}
+
+.home2-process-section .single-process .content h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.home2-process-section .single-process .content p {
+  color: #c4c4c4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+
+.home2-process-section .single-process .content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home2-process-section .single-process .content ul li {
+  display: flex;
+  align-items: center;
+  color: #c4c4c4;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.home2-process-section .single-process .content ul li i {
+  color: #c4c4c4;
+  font-size: 16px;
+}
+
 .our-solution-sec-back {
   background-color: #161616;
 }
@@ -2148,7 +2346,7 @@ footer .menu-container ul li a:hover svg {
 }
 
 /* circle Progressbaar */
-.circle-container {
+/* .circle-container {
   height: 200vh;
   min-height: 100vh;
   display: flex;
@@ -2198,12 +2396,12 @@ footer .menu-container ul li a:hover svg {
 
 .pct {
   position: fixed;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-feature-settings: "tnum";
   font-variant-numeric: tabular-nums;
-}
+} */
 
 /* Back To Top Button */
 

@@ -3,7 +3,7 @@ import Testimonial from './Testimonial'
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import Project from './Project';
-// import Our_solution from './Our_solution';
+import Our_solution from './Our_solution';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -390,7 +390,7 @@ export default function About_Us() {
             </div>
 
             {/* Our Solution Process Section  */}
-            {/* <Our_solution></Our_solution> */}
+            <Our_solution></Our_solution>
 
             {/* Work Section */}
             <div>
