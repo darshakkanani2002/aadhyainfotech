@@ -381,7 +381,7 @@ export default function About_Us() {
                         <div className='row'>
                             <div className='col-lg-12' data-aos="fade-down">
                                 <div className='text-lg-end text-md-center text-center innovative-clitch-img d-lg-block d-md-block d-none'>
-                                    <img src="images/clitch-big-img.png" alt="clitch-big-img" className='img-fluid' />
+                                    <img src="/images/clitch-big-img.png" alt="clitch-big-img" className='img-fluid' />
                                 </div>
                             </div>
                         </div>
